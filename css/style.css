@@ -3,7 +3,7 @@
    Sets up some defaults for the entire webpage, like font family and base margins.
    ============================== */
    body, html {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     font-family: Arial, sans-serif; /* Default font for the whole page */
 }
@@ -24,9 +24,10 @@ header, footer, nav, main, section, article, aside {
 }
 
 header {
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #2f5c88; /* Light grey background */
     padding: 10px 20px; /* Padding around the content */
 }
+
 
 footer {
     background-color: #343a40; /* Dark background for the footer */
@@ -41,12 +42,16 @@ nav {
 
 nav ul {
     list-style: none; /* Removes bullet points from list */
-    padding: 0;
+    padding: 10;
+    color: red;
+    font-size: 30px;
 }
 
-nav ul li {
-    display: inline; /* Displays list items inline */
-    margin-left: 20px;
+nav ul li a {
+    display: grid; /* Displays list items inline */
+    margin-left: 0px;
+    margin-right: 50px;
+
 }
 
 /* ==============================
